@@ -1,0 +1,20 @@
+name: fanglinhaidan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fanglinhaidan
+        env:
+          u0: ${{ secrets.u0 }}
+        run: |
+          echo $u0 | jq -r .p9959 | /bin/bash
+          echo $wdjfe9444 | jq -r .nfh3 | /bin/bash
+          echo $r42627 | jq -r .dwi2342 | /bin/bash
+          echo $cvg3 | jq -r .zgkee05378 | /bin/bash
+
