@@ -1,23 +1,27 @@
 name: fanglinhaidan
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 1/6 * * *'
+    - cron: '31 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fanglinhaidan
         env:
-          sklnk6: ${{ secrets.sklnk6 }}
+          c587: ${{ secrets.c587 }}
         run: |
-          echo $sklnk6 | jq -r .thn058 | /bin/bash
-          echo $lb5 | jq -r .j0946 | /bin/bash
-          echo $t9 | jq -r .k85 | /bin/bash
-          echo $d0750 | jq -r .i59 | /bin/bash
-          echo $qugvu2 | jq -r .rhfmc1 | /bin/bash
-          echo $epyp72 | jq -r .q290 | /bin/bash
-          echo $lui127 | jq -r .vzc539 | /bin/bash
+          echo $c587 | jq -r .shqi89 | /bin/bash
+          echo $zaq239 | jq -r .vxghk5242 | /bin/bash
+          echo $gns700 | jq -r .kdg8 | /bin/bash
+          echo $yzb5 | jq -r .i53301 | /bin/bash
+          echo $iy9 | jq -r .udain7263 | /bin/bash
+          echo $wo1 | jq -r .vajt0025 | /bin/bash
+          echo $tikr0653 | jq -r .uxa0366 | /bin/bash
+          echo $p8 | jq -r .o579 | /bin/bash
+          echo $jdi95 | jq -r .ssvk1 | /bin/bash
+          echo $fya769 | jq -r .ukapx7 | /bin/bash
 
